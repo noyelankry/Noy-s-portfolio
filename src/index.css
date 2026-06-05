@@ -2,29 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap');
 
 @layer base {
     body {
-        @apply font-[Raleway];
-        @apply bg-slate-950;
+        font-family: 'Space Grotesk', sans-serif;
+        background-color: #0a0a0a;
+        color: #ffffff;
     }
 
     li {
-        @apply px-4;
         @apply cursor-pointer;
     }
 }
 
-.content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 200px;
+@keyframes pulse-glow {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
 }
 
-.content-div:hover {
-    background-image: linear-gradient(to right,
-            rgba(255, 112, 112, 0.8),
-            hsla(0, 71%, 78%, 0.8)) !important;
+.glow-pulse {
+    animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.fade-section {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.fade-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }

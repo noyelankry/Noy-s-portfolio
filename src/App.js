@@ -4,26 +4,26 @@ import About from "./components/About"
 import Skills from "./components/Skills"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
-import { Routes, Route } from "react-router-dom";
+import FadeIn from "./components/FadeIn"
+import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-
       <Navbar />
       <Routes>
         <Route path="/" element={
           <div>
             <Home />
-            <About />
-            <Skills />
-            <Work />
-            <Contact />
+            <FadeIn><About /></FadeIn>
+            <FadeIn delay={50}><Skills /></FadeIn>
+            <FadeIn><Work /></FadeIn>
+            <FadeIn><Contact /></FadeIn>
           </div>
         } />
       </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
