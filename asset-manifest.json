@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Noy-s-portfolio/static/css/main.b759c330.css",
+    "main.js": "/Noy-s-portfolio/static/js/main.9bee38f9.js",
+    "static/media/ok_now_can_you_generate_based.mp4": "/Noy-s-portfolio/static/media/ok_now_can_you_generate_based.6e8c3d54ee8a97046a3e.mp4",
+    "static/media/image.png": "/Noy-s-portfolio/static/media/image.ca19f3fb16080fcece2e.png",
+    "static/media/nbd_article.png": "/Noy-s-portfolio/static/media/nbd_article.adc27af55342aa7393fc.png",
+    "static/media/fetchMusic.png": "/Noy-s-portfolio/static/media/fetchMusic.60827784437f4bd7a970.png",
+    "static/media/NOY-ELANKRY_WHITE.png": "/Noy-s-portfolio/static/media/NOY-ELANKRY_WHITE.9123036b9b73b718b305.png",
+    "static/media/raspberrypi.png": "/Noy-s-portfolio/static/media/raspberrypi.82804a2c345a9c54be2c.png",
+    "index.html": "/Noy-s-portfolio/index.html",
+    "main.b759c330.css.map": "/Noy-s-portfolio/static/css/main.b759c330.css.map",
+    "main.9bee38f9.js.map": "/Noy-s-portfolio/static/js/main.9bee38f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b759c330.css",
+    "static/js/main.9bee38f9.js"
+  ]
+}
